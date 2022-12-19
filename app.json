@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gonzalosola.prueba1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +35,14 @@
         "projectId": "b800a1b5-b8d4-4540-ac77-d36e95b5f3c2"
       }
     },
-    "owner": "gonzalosola"
+    "owner": "gonzalosola",
+    "plugins": [
+      [
+        "react-native-health",
+        {
+          "message": "react-native-health"
+        }
+      ]
+    ]
   }
 }

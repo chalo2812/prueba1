@@ -1,0 +1,32 @@
+{
+  "cli": {
+    "version": ">= 0.40.0"
+  },
+  "build": {
+    "base": {
+      "node": "16.16.0",
+      "env": {
+        "VERSION_NUMBER": "2.5.0"
+      }
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "ENVIRONMENT": "dev"
+      },
+      "android": {
+        "distribution": "internal",
+        "withoutCredentials": true
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

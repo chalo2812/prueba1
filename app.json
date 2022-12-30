@@ -2,6 +2,7 @@
   "expo": {
     "name": "prueba1",
     "slug": "prueba1",
+    "id": "b800a1b5-b8d4-4540-ac77-d36e95b5f3c2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -25,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.gonzalosola.prueba1"
+      "package": "com.prueba1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
